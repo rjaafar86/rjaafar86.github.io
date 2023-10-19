@@ -51,10 +51,7 @@ section img {
     /* Responsive images|https://www.w3schools.com/css/default.asp */
     height: auto;
 }
-section img {
-    max-width: 300px;   /* resizing the image, will not be wider than 300px */
-    height: auto;      
-}
+
 
 
 
