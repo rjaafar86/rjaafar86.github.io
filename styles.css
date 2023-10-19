@@ -6,13 +6,19 @@ body {
     background-color: #f4f4f4;
 }
 
-header, section, footer {
-    margin: 20px;
-    padding: 20px;
+header,
+section,
+footer {
+    margin: 10px;
+    padding: 10px;
     background-color: #fff;
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
     margin-bottom: 20px;
 }
 
@@ -39,9 +45,10 @@ nav a:hover {
     background-color: #eee;
 }
 
-/* About Me Styles */
+/* Home page Styles */
 section img {
-    max-width: 100%; /* Responsive images */
+    max-width: 100%;
+    /* Responsive images|https://www.w3schools.com/css/default.asp */
     height: auto;
 }
 
