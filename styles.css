@@ -1,10 +1,18 @@
-/* General Styles */
+* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #808080;
+    background-color: #808080;/*(idea inspired by www.w3schools.com) */
 }
+
+/*  Paragraphs */
+
+h1,h2,h3 {
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
 
 header,
 section,
@@ -17,12 +25,14 @@ footer {
 /* Navigation Styles for .topnav (idea inspired by www.w3schools.com) */
 .topnav {
     overflow: hidden;
-    background-color: #2C3E50; /* Deep Blue */
+    background-color: #2C3E50;
+    /* Deep Blue */
 }
 
 .topnav a {
     float: left;
-    color: #EAECEE; /* Off White */
+    color: #EAECEE;
+    /* Off White */
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
@@ -31,22 +41,28 @@ footer {
 }
 
 .topnav a:hover {
-    background-color: #34495E; /* Slightly Darker Blue */
-    color: #FFFFFF; /* White */
+    background-color: #34495E;
+    /* Slightly Darker Blue */
+    color: #FFFFFF;
+    /* White */
 }
 
 .topnav a.active {
-    background-color: #2980B9; /* Brighter Blue */
-    color: #FFFFFF; /* White */
+    background-color: #2980B9;
+    /* Brighter Blue */
+    color: #FFFFFF;
+    /* White */
+}
+
+.external-link {
+    color: #3498db; 
+    padding-bottom: 2px; 
+    transition: color 0.3s, border-color 0.3s; /* Transition for smooth color change */
 }
 
 /* ... (remaining styles) ... */
 
 section img {
-    max-width: 100%; /* Responsive images */
+    max-width: 100%;
     height: auto;
 }
-
-
-
-
