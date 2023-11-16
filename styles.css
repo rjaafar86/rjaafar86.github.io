@@ -1,38 +1,33 @@
-* General Styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #808080;/*(idea inspired by www.w3schools.com) */
+    background-color: #808080; /* Grey Background */
 }
 
-/*  Paragraphs */
-
-h1,h2,h3 {
+/* Headings */
+h1, h2, h3 {
     margin-top: 0;
     padding-bottom: 15px;
 }
 
-
-header,
-section,
-footer {
+/* Header, Section, and Footer Styles */
+header, section, footer {
     margin: 20px;
     padding: 20px;
-    background-color: #D3D3D3;
+    background-color: #D3D3D3; /* Light Grey */
 }
 
-/* Navigation Styles for .topnav (idea inspired by www.w3schools.com) */
+/* Navigation Bar Styles */
 .topnav {
     overflow: hidden;
-    background-color: #2C3E50;
-    /* Deep Blue */
+    background-color: #2C3E50; /* Deep Blue */
 }
 
 .topnav a {
     float: left;
-    color: #EAECEE;
-    /* Off White */
+    color: #EAECEE; /* Off White */
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
@@ -41,28 +36,51 @@ footer {
 }
 
 .topnav a:hover {
-    background-color: #34495E;
-    /* Slightly Darker Blue */
-    color: #FFFFFF;
-    /* White */
+    background-color: #34495E; /* Slightly Darker Blue */
+    color: #FFFFFF; /* White */
 }
 
 .topnav a.active {
-    background-color: #2980B9;
-    /* Brighter Blue */
-    color: #FFFFFF;
-    /* White */
+    background-color: #2980B9; /* Brighter Blue */
+    color: #FFFFFF; /* White */
 }
 
+/* External Link Styles */
 .external-link {
     color: #3498db; 
     padding-bottom: 2px; 
     transition: color 0.3s, border-color 0.3s; /* Transition for smooth color change */
 }
 
-/* ... (remaining styles) ... */
-
+/* Image Styles */
 section img {
     max-width: 100%;
     height: auto;
+    display: block; /* Centering images */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Profile Photo Style */
+.profile-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* Circular Image */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center aligning footer content */
+}
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
